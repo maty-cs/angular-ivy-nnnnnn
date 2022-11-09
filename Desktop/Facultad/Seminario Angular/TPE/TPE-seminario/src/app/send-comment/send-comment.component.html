@@ -1,0 +1,12 @@
+<div class="container">
+    <form #form = "ngForm" class="addComment">
+        <div class="nombreProductos">        
+            <label for="comentario">Tu comentario</label>
+            <input type="text" name="user" placeholder="ingrese usuario" id="userName" [(ngModel)]="user">
+            <textarea name="resenia" id="userComment" class="textarea" cols="5" rows="5" placeholder="¿Qué piensas?" [(ngModel)]="resenia"></textarea>
+        </div>
+        <div class="submitComment">
+            <button class="btn-comment" (click)="addComment(form.value)">Publicar</button>
+        </div>
+    </form>
+</div>

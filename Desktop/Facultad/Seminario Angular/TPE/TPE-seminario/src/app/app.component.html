@@ -1,0 +1,48 @@
+
+<header>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 navegacion">
+            <a class="nav-opcion" [routerLink]="['/home']">Home</a>
+            <a class="nav-opcion" [routerLink]="['/products']">Productos</a>
+            <a class="nav-opcion" [routerLink]="['/about']">Contacto</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="contenedor">
+        <h1 class="titulo">Pastelería Guille</h1>
+        <p>¡Hacemos la delicia que vos pidas!</p>
+    </div>
+</header>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="contacto">
+    <div class="contenedor-footer">
+        <div class="contactanos">
+            <h2 class="marca">Guillermina Pastelería</h2>
+            <p>hacemos la delicia que vos pidas</p>
+        </div>
+        <div class="redes-sociales">
+            <a href="" class="icono-redes">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="" class="icono-redes">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="" class="icono-redes">
+                <i class='bx bxl-instagram'></i>
+            </a>
+        </div>
+    </div>
+    <div class="linea"></div>
+</footer>
