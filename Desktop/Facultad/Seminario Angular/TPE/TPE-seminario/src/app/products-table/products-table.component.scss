@@ -1,0 +1,120 @@
+.tablaProductos{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.tablaProductos table{
+    width: 85%;
+    height: 20%;
+    text-align: left;
+    justify-content: center;
+    margin-top: 30px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.noGluten{
+    background-color: rgb(147, 214, 147);
+    color: rgb(61, 61, 61);
+    
+}
+
+th, td{
+    border: solid 0.5px black;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+.headTabla{
+    background-color: #e0dcdc;
+    border-bottom: solid 2px rgb(54, 37, 37);
+}
+
+.opciones{
+    background-color: #f3f0f0;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    flex-wrap: nowrap;
+    display: none;
+    border: solid 1px #887bac;
+    border-radius: 5%;
+}
+.mostrar-form{
+    display: flex;
+    flex-direction: column;
+}
+.opciones label{
+    margin-left: 1vh;
+    margin-right: 3vh;
+}
+.opciones #agregarPrecio, #nombreProducto{
+    margin-left: 1vh;
+    width: 15vh;
+}
+.opciones #editarId{
+    margin-left: 8.5vh;
+    width: 15vh;
+}
+.opciones div{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#adminProducto{
+    margin-left: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 15vh;
+    height: 8vh;
+    border-radius: 3px;
+    background-color: #bfb5d8;
+    font-size: 2.5vh;
+
+}
+#contieneGluten{
+    margin-left: 1vh;
+}
+.opciones div #agregarPrecio{
+    margin-left: 3.2vh;
+}
+.opciones div .botonesProductos{
+    justify-content: space-evenly;
+}
+.opciones button{
+    margin-bottom: 1vh;
+    margin-right: 2vh;
+    margin-left: 3vh;
+    margin-top: 1vh;
+    background-color:#a18cd1;
+    padding: 0.5vh;
+
+}
+
+.seccionFiltro{
+    margin-left: 5vh;
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: column;
+}
+.seccionFiltro label{
+    font-size: 2.4vh;
+    margin-bottom: 0,3vh;
+    margin-top: 0.5vh;
+}
+.seccionFiltro #filtro{
+    width: 25vh;
+    padding: 1vh;
+    margin-bottom: 0,3vh;
+    margin-top: 0.5vh;
+}
+.seccionFiltro #btnFiltrar{
+    background-color:#a18cd1;
+    padding: 1vh;
+    width: 15vh;
+    margin-bottom: 0,3vh;
+    margin-top: 0.5vh;
+}

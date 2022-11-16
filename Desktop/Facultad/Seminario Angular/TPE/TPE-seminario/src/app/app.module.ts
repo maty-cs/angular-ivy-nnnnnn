@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { SendCommentComponent } from './send-comment/send-comment.component';
 import { CommentsComponent } from './comments/comments.component';
 import { FormsModule } from '@angular/forms';
+import { ProductsTableComponent } from './products-table/products-table.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     AboutComponent,
     SendCommentComponent,
     CommentsComponent,
+    ProductsTableComponent,
   ],
   imports: [
     BrowserModule,

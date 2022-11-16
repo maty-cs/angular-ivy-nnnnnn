@@ -19,7 +19,12 @@ export class SendCommentComponent implements OnInit {
   }
 
   addComment(comment: Comments): void{
-    this.comentario.agregarComentario(comment)
+    if((comment.user!="" && comment.user!=null && comment.user!=undefined) && (comment.resenia!="" && comment.resenia!=null && comment.resenia!=undefined)) {
+      this.comentario.agregarComentario(comment)
+    }
+    else{
+      alert("Campos de comentario invalidos")
+    }
   }
 
 }

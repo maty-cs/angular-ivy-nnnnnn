@@ -1,24 +1,4 @@
-<section class="tablaProductos">
-    <table>
-        <thead class="headTabla">
-            <tr>
-                <th>Producto</th>
-                <th>Libre de Gluten</th>
-                <th>Precio</th>
-                <th>Imagen</th>
-            </tr>
-        </thead>
-        <tbody id="agregado">
-            <tr *ngFor="let product of products" [ngClass]="{'noGluten': product.gluten}">
-                <td>{{product.name | titlecase}}</td>
-                <td *ngIf="product.gluten==true">Sí</td>
-                <td *ngIf="product.gluten==false">No</td>
-                <td>{{product.price | currency}}</td>
-                <td><img width="100" class="img-thumbnail" [src]="product.img" [alt]="product.name" class="img"></td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+<app-products-table></app-products-table>
 
 <section class="envios">
     <h2 class="subtitulo">Envíos</h2>
